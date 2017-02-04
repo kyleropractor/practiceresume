@@ -28,17 +28,18 @@ bio.display = function() {
     var formattedbioPic = HTMLbioPic.replace(data, bio.biopic);
     var formattedwelcomeMsg = HTMLwelcomeMsg.replace(data, bio.welcomeMessage);
 
-    bio.skills.forEach(function(skill){
-    var formattedSkills = HTMLskills.replace(data, skill);
-    $("#topContacts").prepend(formattedSkills);
-});
+
 
     $("#header").prepend(formattedRole);
     $("#header").prepend(formattedName);
     $("#header").prepend(formattedbioPic);
     $("#header").append(HTMLskillsStart);
-    $("#topContacts").append(formattedwelcomeMsg);
+//    $("#header").append(formattedwelcomeMsg);
 
+    bio.skills.forEach(function(skill){
+    var formattedSkills = HTMLskills.replace(data, skill);
+    $("#header").append(formattedSkills);
+});
 
 
     $("#topContacts, #footerContacts").prepend(formattedMobile, formattedEmail, formattedGithub, formattedTwitter, formattedLocation);
@@ -94,7 +95,7 @@ education.display = function() {
         $(".education-entry:last").append(formattedMajor);
     });
 
-    $("#education").append(HTMLonlineClasses);
+//        $("#education").append(HTMLonlineClasses);
     education.onlineCourses.forEach(function(school) {
 
         var formattedonlineTitle = HTMLonlineTitle.replace(data, school.title).replace("#", school.url3);
