@@ -12,6 +12,7 @@ h6 {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  list-style-type: none;
 }
 
 .clear-fix {
@@ -138,14 +139,14 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
+/**  padding: 10px;**/
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 10px;
+/**  padding: 10px; **/
 }
 
 .center-content {
