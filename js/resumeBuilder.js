@@ -74,7 +74,7 @@ var education = {
     }],
     "display": ""
 };
-//for in loop to display education history
+//forEach loop to display education history
 education.display = function() {
     education.schools.forEach(function(school) {
         $("#education").append(HTMLschoolStart);
@@ -133,7 +133,7 @@ var work = {
     ],
     "display": ""
 };
-//for in loop to display work history
+//forEach loop to display work history
 work.display = function() {
     work.jobs.forEach(function(job) {
         $("#workExperience").append(HTMLworkStart);
