@@ -118,7 +118,7 @@ var work = {
             "employer": "Major League Quidditch",
             "title": "Technology Coordinator",
             "dates": "March 2017-Present",
-            "description": "Maintain mlquidditch.com using HTML, CSS, JavaScript and Adobe Creative Suite.",
+            "description": "Maintain <a href="www.mlquidditch.com">mlquidditch.com</a> using HTML, CSS, JavaScript and Adobe Creative Suite.",
             "location": "Online",
             "url": "http://mlquidditch.com"
         },
