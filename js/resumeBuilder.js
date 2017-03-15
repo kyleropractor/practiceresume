@@ -128,7 +128,7 @@ var work = {
             "dates": "December 2016-Present",
             "description": "I am a fellow concentrating on creating new nutrition research, serving the MN Vixen and MN Freeze with nutrition counseling in the Human Performance Center and serving as clinician in the De Rusha Learning Center as clinician for interns using physical rehab techniques.",
             "location": "Bloomington, MN",
-            "url": "http://nwhealth.edu"
+            "url": "https://www.nwhealth.edu/human-performance-center/about/staff/"
         },
         {
             "employer": "North East Chiropractic Center",
